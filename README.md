@@ -12,10 +12,10 @@ npx create-react-app ${PROJECT} --template typescript
 * react-admin type [issue](https://github.com/marmelab/react-admin/issues/5247):
 
 ````bash
-npm install typescript@4.0
+npm install typescript@3.9.7
 ````
 
-* Add file [src/react-admin.d.ts](src/react-admin.d.ts):
+* Add file [src/javascript.d.ts](src/javascript.d.ts):
 
 ````ts
 declare module 'react-admin';
